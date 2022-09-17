@@ -1,0 +1,39 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+Authlib
+azure-common
+azure-core
+azure-identity
+azure-keyvault
+azure-keyvault-certificates
+azure-keyvault-keys
+azure-keyvault-secrets
+azure-storage-blob
+certifi
+cffi
+charset-normalizer
+cryptography
+DateTime
+idna
+isodate
+msal
+msal-extensions
+msrest
+numpy
+oauthlib
+pandas
+portalocker
+pycparser
+PyJWT
+python-dateutil
+python-dotenv
+pytz
+requests
+requests-oauthlib
+six
+typing_extensions
+urllib3
+zope.interface
